@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { CirclePicker } from "react-color";
 import axios from "axios";
 import FileSaver from "file-saver";
-import "./app.css";
+import "./css/app.css";
 
 function App() {
   const canvasRef = useRef(null);
